@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>heading</title>
+    <title>link</title>
 </head>
 <body>
-    <h1>Gorilla 1</h1> 
-    <p>gorillais my favorite animal</p>   
-    <h2> Gorilla 2</h2> 
-    <h3>Gorilla 3</h3>
-    <h4>Gorilla 4</h4>
-    <h5>Gorilla 5</h5>
-    <h6>Gorilla 6</h6>
+    <h1>Gorilla</h1>
+    <p>gorillais my favorite animal</p><br>
+    <hr>
+    <a href="https://en.wikipedia.org/wiki/Gorilla">gorilla</a><br>
+    <a href="https://www.google.com">Google</a>
+
+  
 </body>
 </html>
