@@ -34,7 +34,7 @@
             <td>Eng</td>
             <td>Mat</td>
             <td>Che</td>
-            <td rowspan="6"><b>L<br>u<br>n<br>c<br>h<br></b></td><!--look here-->
+            <td rowspan="6"><b>  L<br>  u<br>n<br>c<br>h<br></b></td><!--look here-->
             <td colspan="3">lab</td>
             <td>Phy</td>
         </tr>

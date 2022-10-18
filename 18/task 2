@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+</head>
+<body>
+    <h1>Form today's featured article</h1>
+    <div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllZmIg5ZDr_ZKVZuWWEtIUo6t8v07_P17ExuQjab4fg&s"
+    alt="pairate">
+    <p>The English word "pirate" is derived from the Latin pirata ("pirate, corsair, sea robber"), which comes from Greek . </p>
+    </div>
+    <div>
+    <p>Piracy is an act of robbery or criminal violence by <span><a href="https://en.wikipedia.org/wiki/Ship">ship</a></span> or boat-borne attackers upon another ship or a coastal area,<br>
+         typically with the goal of stealing cargo and other valuable goods. Those who conduct acts of <span><a href="https://en.wikipedia.org/wiki/Piracy">piracy</a></span> are called pirates,<br>
+          while the dedicated ships that pirates use are called pirate ships.</p>
+    </div>
+    <div>
+        <h2>Recentely featured</h2>
+        <ul >
+            <li><a href="https://en.wikipedia.org/wiki/Cyberspace">Cyberspace</a></li><br>
+            <li><a href="https://en.wikipedia.org/wiki/Telecommunications_network">Telecommunications_network</a></li><br>
+            <li><a href="https://en.wikipedia.org/wiki/Captain_Charles_Johnson">Captain_Charles_Johnson</a></li><br>
+           </ul>
+           <br>
+           <br>
+           <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Treasure_Island">Treasure_Island</a></li><br>
+            <li><a href=" https://en.wikipedia.org/wiki/Latin">Latin</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Roman_Republic">Roman_Republic</a></li>
+           </ul>
+    </div>
+    <div>
+        <h2>Did you know ...</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Romtrireme.jpg/220px-Romtrireme.jpg" alt="Sgip">
+        <p>ship</p>
+    </div>
+    
+        </body>
+</html>

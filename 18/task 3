@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+</head>
+<body>
+    <form>
+        <h2>Account Information</h2>
+        <label for="name"><b>Login Name*</b> </label>
+        <input type="text" id="name" name="name" value="" ><br>
+        <label for="password"><b>Password*</b></label>
+        <input type="password" value="e"><br>
+        <label for="password"><b>Confirm Password*</b></label>
+        <input type="password" value=""><br>
+        <label for="email"><b>Email*</b></label>
+        <input type="email" id="email" name="email" value=""><br>
+        <label for="email"><b>Confirm Email*</b></label>
+        <input type="email" id="email" name="email" value=""><br>
+
+        <h2>Content Information</h2>
+        <label for="name"><b>First Name* </b></label>
+        <input type="text" id="name" name="name" value="" required><br>
+        <label for="name"><b>Last Name*</b> </label>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="name"><b>Address 1* </b></label>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="name"><b>Address 2* </b></label>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="name"><b>City*</b> </label>
+        <input type="text" id="name" name="name" value=""><br>
+
+        <label for="state"><b>State or Province*</b></label>
+        <select name="Course" id="course" >
+            <option value="select">select ..</option><br>
+            </select><br>
+
+            <label for="name"><b>Zip*</b> </label>
+        <input type="text" id="name" name="name" value="" required><br>
+        <label for="name"><b>Country*</b> </label>
+        <input type="text" id="name" name="name" value="" required><br>
+       
+        <label for="Gender"><b>Gender</b></label>
+        <input type="radio" id="gender" name="gender" value="male">
+        <label for="Male">Male</label>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="Male">Female</label><br>
+
+        <h3>Misc. Information</h3>
+        <label for="select"><b>Annual Household Income</b></label>
+        <select name="select" id="select" >
+            <option value="select">select ..</option><br>
+            </select><br>
+
+        <label for="Language"><b>Interests</b></label>
+        <input type="checkbox" id="Interests" name="Interests" >
+        <label for="Interests">Shopping/fashion</label>
+        <input type="checkbox" id="Interests" name="Interests" >
+        <label for="Interests">Sport</label>
+        <input type="checkbox" id="Interests" name="Interests" >
+        <label for="Interests">Travel</label><br>
+
+        <label for="Eye Color"><b>Eye Color</b></label>
+        <input type="checkbox" id="Eye Color" name="Eye Color" >
+        <label for="Eye Color">Red</label>
+        <input type="checkbox" id="Eye Color" name="Eye Color" >
+        <label for="Eye Color">Green</label>
+        <input type="checkbox" id="Eye Color" name="Eye Color" >
+        <label for="Eye Color">Brown</label>
+        <input type="checkbox" id="Eye Color" name="Eye Color" >
+        <label for="Eye Color">Blue Gold</label><br>
+
+        <button type="submit" form="form" value="submit">submit</button>
+        <button type="submit" form="form" value="reset">reset</button>
+
+
+
+
+
+
+
+            
+
+
+    </form>
+    
+</body>
+</html>
