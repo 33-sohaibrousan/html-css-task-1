@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+    <style>
+        p a {
+            color: orange;
+        }
+
+        #line1 {
+            color: blue;
+        }
+
+        div a {
+            color: red;
+        }
+
+        .ultype {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="line1">Here is a text <span><a href="https://en.wikipedia.org/wiki/Hello">with a link</a></span> lets do it !
+        <br>
+    </p>
+    <br>
+    <p>We have more <span><a href="https://en.wikipedia.org/wiki/English_language">links</a></span> here:<br>
+        <br>
+        Is this a (<mark><a href="https://en.wikipedia.org/wiki/West_Germanic_languages">links</a></mark> ?).<br>
+    </p>
+    <div>
+        <ul>
+            <li><b>Please.<a href="https://en.wikipedia.org/wiki/North_Germanic_languages"> Click Me!</a></b></li>
+            <br>
+            <li>can you ? lets count </li>
+            <ul style="list-style-type:circle" class="ultype">
+                <li><b>111</b></li>
+                <li>222 <a href="https://en.wikipedia.org/wiki/Indo-European_languages"> Another link</a></li>
+                <li>333</li>
+                <ul type="none" class="ultype">
+                    <li><b>red</b></li>
+                    <li>green</li>
+                    <li>blue <a href="https://colorhunt.co"> Colors Link</a></li>
+                </ul>
+
+
+            </ul>
+            <li>Thats Enough !</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

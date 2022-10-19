@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1</title>
+</head>
+
+<body>
+    <h1>Page=level & inline CSSStyling</h1>
+    <p style="color:orange ;">Piracy is an act of robbery or criminal violence by <span><a
+                href="https://en.wikipedia.org/wiki/Ship">ship</a></span> or boat-borne attackers upon another ship or a
+        coastal area,<br>
+        typically with the goal of stealing cargo and other valuable goods. Those who conduct acts of <span><a
+                href="https://en.wikipedia.org/wiki/Piracy">piracy</a></span> are called pirates,<br>
+        while the dedicated ships that pirates use are called pirate ships.</p>
+    <p>Cascading Style Sheets (CSS) is a style sheet language used for describing
+        the presentation of a document written in a markup language such as HTML or
+        XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a
+        cornerstone technology of the World Wide Web, alongside HTML and JavaScrip</p>
+
+</body>
+
+</html>
