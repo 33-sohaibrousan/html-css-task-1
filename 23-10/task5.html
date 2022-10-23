@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5</title>
+    <style>
+body{
+    background-color: pink;
+}
+.par1{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+}
+textarea{
+    background-color: pink;
+}
+    </style>
+</head>
+<body>
+    <h1> Floating articls</h1>
+    <div class="par1">
+        The vertical margins only collapse for block elements. 
+        For inline block elements the margins are added both
+         vertically and horizontally. So I am not sure that 
+         it is an issue that horizontal margins don't collapse 
+         on block elements since they fill their container anyways. 
+    </div>
+    <div class="par1">
+        The vertical margins only collapse for block elements. 
+        For inline block elements the margins are added both
+         vertically and horizontally. So I am not sure that 
+         it is an issue that horizontal margins don't collapse 
+         on block elements since they fill their container anyways. 
+    </div>
+    <div class="par1">
+        The vertical margins only collapse for block elements. 
+        For inline block elements the margins are added both
+         vertically and horizontally. So I am not sure that 
+         it is an issue that horizontal margins don't collapse 
+         on block elements since they fill their container anyways. 
+    </div>
+    <hr style="border: 3px solid black;">
+  <textarea rows="5" cols="170">
+
+        As @Fateh Khalsa pointed out, I had a similar problem and since I was manipulating my table with JavaScript (jQuery to be precise), I was able to do the following:
+        
+        (Note: This assumes use of JavaScript/jQuery which the OP did not state whether or not would be available to them. This answer assumes yes, it would be, and that we may want to toggle visibility of hidden rows at some point.)
+        
+        Inactive records (identified with the CSS class "hideme") are currently visible.
+        Visitor clicks link to hide inactive records from the list.
+        jQuery adds "hidden" CSS class to "hideme" records.
+        jQuery adds additional empty row to the table immediately following the row we just hid, adding CSS classes "hidden" (so it doesn't show) and "skiprowcolor" so we can easily 
+    </textarea>
+    <hr style="border: 3px solid black;">
+    <div class="par1">
+        The vertical margins only collapse for block elements. 
+        For inline block elements the margins are added both
+         vertically and horizontally. So I am not sure that 
+         it is an issue that horizontal margins don't collapse 
+         on block elements since they fill their container anyways. 
+    </div>
+    <div class="par1">
+        The vertical margins only collapse for block elements. 
+        For inline block elements the margins are added both
+         vertically and horizontally. So I am not sure that 
+         it is an issue that horizontal margins don't collapse 
+         on block elements since they fill their container anyways. 
+    </div>
+
+
+
+
+</body>
+</html>

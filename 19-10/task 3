@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Dog D Dog</h1>
+    <br>
+    <h2>About</h2>
+    <br>
+    <p>Woof woof1</p>
+    <p>Hi am dog. ilove <span>User interface Design.</span></p>
+    <br>
+    <h2>Courses</h2>
+    <br>
+    <p>here are some courses ive taken</p>
+    <br>
+    <table border="1px">
+        <tr>
+            <th>Course number</th>
+            <th>course title</th>
+            <th>semester taken</th>
+        </tr>
+        <tr>
+            <th colspan="3">For credit</th>
+        </tr>
+        <tr>
+            <td class="number">6.813</td>
+            <td class="number">user interface design</td>
+            <td class="number">spring 2014</td>
+        </tr>
+        <tr>
+            <td class="number">6.034</td>
+            <td>artificial intelligenc</td>
+            <td>fail 2013</td>
+        </tr>
+        <tr>
+            <td class="number">6.006</td>
+            <td>introduction to algorithms</td>
+            <td>fail 2013</td>
+        </tr>
+        <tr>
+            <th colspan="3">Listener</th>
+        </tr>
+        <tr>
+            <td class="number">6.867</td>
+            <td>machine learning</td>
+            <td>fail 2013</td>
+        </tr>
+        <tr>
+            <td class="number">6.830</td>
+            <td>database systems</td>
+            <td>fail 2013</td>
+        </tr>
+    </table>
+    <br>
+    <h2>Interests</h2>
+
+    <p>i am interested <strong>Hcl</strong> ,memes, and youtube videos</p>
+    <h2>Submit pet information</h2>
+    <p>would love to know what kinds of pets you 'own' (you'll never own me). submit below! </p>
+    <label for="name"><b> Name: </b></label>
+    <input type="text" id="name" name="name" value="" required><br>
+    <label for="name"><b>Phylum:</b> </label>
+    <input type="text" id="name" name="name" value=""><br>
+    <label for="name"><b>Gender: </b></label>
+    <input type="text" id="name" name="name" value=""><br>
+    <button type="submit" form="form" value="submit">submit</button>
+</body>
+
+</html>

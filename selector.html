@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        /* h1 element selected here */
+        h1 {
+                      color:green;
+                      text-align:center;
+                  }
+                    
+                  /* h2 element selected here */
+                  h2 {
+                      text-align:center;
+                  }
+                 
+                 /* #id selector */
+                  #identified {
+                        background-color: skyblue;
+                }
+                /*universal selector*/
+                * [lang^="en"] {
+  color: green;
+}
+
+*.warning {
+  color: red;
+}
+
+*#maincontent {
+  border: 1px solid blue;
+}
+
+.floating {
+  float: left;
+}
+
+/* automatically clear the next sibling after a floating element */
+.floating + * {
+  clear: left;
+}
+
+              </style>
+</head>
+<body>
+    
+    <!--ELEMENT SELECTERS 
+    Description:The element selector in CSS is used to select HTML elements
+     which are required to be styled. In a selector declaration,
+      there is the name of the HTML element and the CSS properties 
+      which are to be applied to that element is written inside the brackets {}.
+      
+    EXAMPLE:: 
+    -->
+        <h1>GeeksforGeeks</h1>
+        <h2>element Selector</h2>
+  
+   
+    <!--ID SELECTOR
+        The CSS ID selector matches an element based on the value of the element's 
+        id attribute. In order for the element to be selected, its id attribute must
+         match exactly the value given in the selector.
+    -->
+    <div id="identified">This div has a special ID on it!</div>
+<div>This is just a regular div.</div>
+
+
+<!--Universal selectors
+The universal selector provided by CSS helps in choosing any elements within the HTML page.
+The universal selector becomes helpful when you wish to put a specific style in all the HTML
+ elements within your web page-->
+ <p class="warning">
+    <span lang="en-us">A green span</span> in a red paragraph.
+  </p>
+  <p id="maincontent" lang="en-gb">
+    <span class="warning">A red span</span> in a green paragraph.
+  </p>
+    
+</body>
+</html>
