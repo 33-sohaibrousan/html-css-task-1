@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+    <style>
+       .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+    .item4 { grid-area: footer; }
+    .contaner{
+        display: grid;
+        grid-template-areas:
+    'header header header header header header'
+    'menu menu menu menu main main'
+    'footer footer footer footer footer footer';
+    gap: 10px;
+    }
+    .item1{
+        height: 80px;
+    }
+    .item2{
+        height:200px ;
+    }
+    .item4{
+        height: 150px;
+    }
+
+
+       
+
+
+
+    </style>
+</head>
+<body>
+    <div class="contaner">
+        <div class="item1" style="background-color: black;" ></div>
+        <div class="item2" style="background-color: blue;"></div>
+        <div class="item3" style="background-color: yellow;"></div>
+        <div class="item4" style="background-color: green;"></div>
+
+    </div>
+    
+</body>
+</html>
