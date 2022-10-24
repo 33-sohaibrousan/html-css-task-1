@@ -1,2 +1,2 @@
-# html-css-task-1
+# html-css-tasks
 
