@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <style>
+        .mainbox{
+            border: 10px solid rgb(191, 119, 10);
+            display: flex;
+            height: 0px auto;
+        }
+        .colbox{
+            text-align: center;
+            height: 500px;
+            color: white;
+            font-size: 40px;
+            width: 150px;
+        }
+        @media(min-width:0px) and (max-width:480px){
+            .mainbox{
+flex-wrap: wrap;
+
+            }
+          .colbox{width: 100%;}
+
+}
+
+
+@media(min-width:481px) and (max-width:768px){
+
+.mainbox{ flex-wrap: wrap;}
+
+.colbox {
+   
+width: 50%;
+
+    
+}}  
+    </style>
+    
+</head>
+<body>
+    <div class="mainbox">
+        <div class="colbox" style="background-color: green;">1</div>
+        <div class="colbox"  style="background-color: yellow;">2</div>
+        <div class="colbox"  style="background-color: purple;">3</div>
+        <div class="colbox"  style="background-color: gray;">4</div>
+        <div class="colbox" style="background-color: blue;">5</div>
+        <div class="colbox" style="background-color: orange;">6</div>
+        <div class="colbox" style="background-color: pink;">7</div>
+        <div class="colbox" style="background-color: red;">8</div>
+        <div class="colbox" style="background-color: brown;">9</div>
+    </div>
+    
+</body>
+</html>

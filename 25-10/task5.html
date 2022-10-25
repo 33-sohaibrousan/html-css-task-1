@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5</title>
+    <style>
+.main{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 100%;
+    font-size: 60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    
+
+
+}
+
+.first{
+    background-color: yellow;
+  width: 50%;
+  color: white;
+  text-align: center;
+  
+
+
+  
+}
+.secend{
+    width: 50%;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+.box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:0px) and (max-width:480px){
+            .main{
+                flex-direction: column;  
+                
+
+            }
+            .first{
+                margin-left: 25%;
+            }
+            .secend{
+                margin-left: 25%;
+
+            }
+          
+        }
+
+
+
+
+@media(min-width:481px) and (max-width:768px){
+
+.main{ 
+    flex-direction: column;     
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+            <div class="first box"><p>first part</p></div>
+            <div class="secend box"><p>secend part</p></div>
+    </div>
+</body>
+</html>
