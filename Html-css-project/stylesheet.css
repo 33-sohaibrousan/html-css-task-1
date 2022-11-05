@@ -1,0 +1,553 @@
+body{
+    background-color: black;
+}
+*{
+    padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;/* loooooooooooooook*/
+}
+.nav-main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+   
+}
+.img-sohaib{
+height: 500px;
+position: absolute;
+right: 100px;
+top: 250px;
+
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    height: 202px;
+
+}
+nav ul li {
+    list-style-type:none;
+    display: inline-block;
+    padding: 25px;
+    font-size: 22px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f90095;
+    transition: .4s;
+}
+.contact{
+    background-color: #f90095;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+    
+}
+.contact:hover{
+    transform: scale(1.2);
+}
+
+.name{
+   
+    color: white;
+   /*looooooooooooooook*/
+    padding-top: 500px;
+    padding-left: 5%;
+    transform: translateY(-50%);/*loooooooooooooooooooook*/
+    font-size: 40px;
+}
+.name-h4{
+font-size: 20px;
+}
+.name-h3{
+    font-size: 25px;
+    
+}
+.name-1{
+    color: #f90095;
+}
+.downl-cv{
+    background-color: #f90095;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    transition: transform .4s;
+    
+}
+
+/*  educaaaaaaaaion*/
+ #education{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+  
+}
+
+.edu-just{
+    display: flex;
+    padding: 30px;
+    font-size:larger;
+    text-transform: capitalize;
+    margin-left: 200px;
+
+}
+
+
+.edu-orange{
+font-size: larger;
+margin-right: 150px;
+}
+.orange-text{
+    border-radius: 41px;
+    background: rgb(231, 135, 2);
+    box-shadow:  5px 5px 21px #6e6e6e,
+    -5px -5px 21px #ffffff;
+    padding: 10px;
+
+}
+.orange-img{
+margin-bottom: 0px;
+}
+.orange-text p{
+padding: 10px;
+
+}
+.just-text{
+    border-radius: 41px;
+background: #095cda;
+box-shadow:  5px 5px 21px #6e6e6e,
+-5px -5px 21px #ffffff;
+padding: 30px;
+}
+
+
+.just-text p{
+    padding: 10px;
+}
+/*========skils-------*/
+#skills-main{
+   color: white;
+   display: flex;
+   justify-content: space-around;
+
+ 
+ 
+ }
+ 
+ .soft-skills{
+    font-size: 30px;
+    padding: 80px;
+    border:4px solid #f90095;
+    color: #f90095;
+    border-radius: 30px;
+
+ }
+ .soft-skills li{
+    padding: 10px;
+ }
+ .tecnical-skills{
+    font-size: 30px;
+    padding: 80px;
+    border:4px solid #f90095;
+    border-radius: 30px;
+ }
+ .tecnical-skills ul {
+padding-top: 25px;
+color: #f90095;
+
+ }
+ .tecnical-skills li{
+    padding: 10px;
+ }
+ .fa-html5{
+    background: #ff5700;
+  color: #ff5700;
+  
+ }
+ .fa-css3{
+    background: blue;
+    color: #0716e1;
+    font-size: 40px;
+ }
+ 
+/*  cetificate*/
+.certificate{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.orange-card{
+display: flex;
+justify-content: center;
+text-align: center;
+border: 4px solid #f90095 ;
+border-radius: 30px;
+padding: 20px;
+width: 500px;
+font-size: 20px;
+}
+
+.orange-certi-img{
+    width: 300px;
+}
+.udacity-card{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border: 4px solid #f90095;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+text-align: center;
+}
+.udacity-certi-img{
+    width: 300px;
+}
+
+
+/*        rederences      */
+#references{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    text-transform: capitalize;
+    margin-top: 300px;
+
+    
+    
+
+}
+.ref-h1{
+color: white;
+
+
+}
+.column{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 30%;
+    text-align: center;
+    border: 4px solid #f90095;
+    margin: 10%;
+    border-radius: 30px;
+
+
+    
+    
+}
+.card img{
+    height: 300px;
+    border-radius: 400px;
+    }
+
+.ref-text {
+    color: white;
+    padding:40px ;
+
+    }
+    .ref-text p{
+        padding: 20px
+    }
+    /* language*/
+    .lang{
+        display: FLEX;
+        color: white;
+        margin-top: 100px;
+        justify-content: space-around;
+        font-size:20px ;
+        text-align: center;
+        }
+    .arabic{
+        border: 4px solid #f90095;
+        border-radius: 50px;
+        width: 360px;
+        height: 300px;
+        background: #f90095;
+        box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #f90095;
+            padding-top: 50px;
+
+
+    }
+    .arabic ul li{
+        padding: 10px;
+    }
+    .english{
+        border: 4px solid #f90095;
+        border-radius: 50px;
+        width: 360px;
+        height: 300px;
+        background: #f90095;
+        box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #f90095;
+        padding: 50px;
+    }
+    .english ul li{
+        padding: 10px;
+    }
+    .triangle-right {
+        width: 0;
+        height: 0;
+       position: relative;
+       top: 45px;
+        border-top: 25px solid transparent;
+        border-left: 50px solid #f90095;
+        border-bottom: 25px solid transparent;
+        float: left;
+    }
+
+    
+#contact{
+    display: flex;
+    margin: 50px;
+    
+}
+.logo-footer{
+    display: flex;
+    height: 110px;
+}
+.footer{
+display: flex;
+padding-left: 30%;
+
+}
+.fa{
+background-color: #f90095;
+padding: 20px;
+font-size: 30px;
+border-radius: 50px;
+text-decoration: none;
+gap: 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    
+}
+    .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-whatsapp {
+        background: #06ff2b;
+        color: white;
+      }
+      .fa-phone{
+        background-color: #300f9e;
+        color: white;
+      }
+     
+     
+      @media(min-width:0px) and (max-width:480px){
+        .nav-main ul li{
+            display: none; 
+            
+            font-size: 10px;
+
+            
+        }
+        .nav-main {
+            height: 800px;
+        }
+        .logo{ 
+            width: 100px;
+            height: 100px;
+
+        }
+        .contact{
+        width: 80px;
+        height: 60px;
+        border-radius: 30px;
+        font-size: 10px;
+        text-align:center;
+        }
+        .contact:hover{
+            transform: scale(1.2);
+        }
+        .img-sohaib{ 
+            width: 300px;
+            height: 400px;
+            top: 150px;
+            left: 10px;
+
+        }
+        .name{
+            
+            font-size: 10px;
+           bottom: 10px;
+           padding-top:1100px;
+            text-align: center;     
+            padding-left: 0px;      
+        }
+        
+        #education{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+        }
+        .education-1{
+           font-size: 20px;
+
+        }
+       .edu-just{
+padding-right: 230px;
+       }
+        .orange-img{
+            padding-right: 10px;
+        }
+        .edu-orange{
+padding-left: 160px;
+        }
+        /* ssskilllllls */
+        #skills-main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .soft-skills{
+            width: 300px;
+            font-size: 17px;
+        }
+        .tecnical-skills{
+            width: 300px;
+            font-size: 17px;
+        }
+        .certificate{
+          display: flex;
+          flex-wrap: wrap;
+        
+        }
+        .orange-certi-img{
+            width: 200px;
+        }
+        .udacity-certi-img{
+            width: 200px;
+        }
+        #references{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 15px;
+        }
+        .column{
+        width: 200px;
+         }
+         .card img{
+            height: 100px;
+        }
+        .card a{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            font-size: 15px;
+
+            
+        }
+       
+
+
+        .lang{
+            display: flex;
+            flex-wrap: wrap;
+        }
+      .contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .logo-footer{
+        display: none;
+      }
+        .fa{
+            display: flex;
+            flex-wrap: wrap;
+            width: 110px;
+        }
+
+      }
+      
+      @media(min-width:481px) and (max-width:768px){
+       
+        .nav-main ul li{
+            display: inline;  
+             /* flex-direction:row;
+            align-items: center;  */
+            font-size: 10px;
+            padding: 10px;
+
+            
+        }
+        .logo{ 
+            width: 150px;
+            height: 150px;
+
+        }
+        .contact{
+            width: 90px;
+            height: 60px;
+            border-radius: 30px;
+            font-size: 11px;
+            text-align:center;
+            
+            }
+            .img-sohaib{ 
+                width: 300px;
+                height: 400px;
+                top: 150px;
+                right: 10px;
+                float: right;
+    
+            }
+            .name{
+                font-size: 20px;
+                padding-left: 15px;      
+            
+    }
+   
+    #references{
+display: flex;
+flex-wrap: wrap;
+    }
+   
+    .card img{
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+     
